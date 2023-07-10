@@ -31,4 +31,4 @@ double diffInNumbers(double[] array)
     return max - min;
 }
 massive(size);
-Console.Write($"\nРазница между максимальным и минимальным элементов массива: {diffInNumbers(array):F2}");
+Console.Write($"\nРазница между максимальным и минимальным элементов массива: {Math.Round(diffInNumbers(array)):F2}");
